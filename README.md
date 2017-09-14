@@ -1,4 +1,7 @@
 # Datalogger
+The program read the message from the Serial, show the message on the LCD screen and finally save the message into the SD card. Press the SELECT button on the KeyPad Shield to pause the input. While the input is paused, press the SELECT button again to restart it. No IO operate will be executed if paused, so it's safe to cut off the power or remove the SD card.
+
+This project uses Arduino UNO, SD shield and LCD KeyPad Shield.
 
 ## SD
 See [Arduino - SD](http://arduino.cc/en/Reference/SD).
